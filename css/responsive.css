@@ -1,0 +1,96 @@
+@media only screen and (max-width:576px){
+	.et_pb_text_0 h1 {
+		font-size: 34px !important;
+		line-height: 37px !important;
+	}
+	.et_menu_container{
+		overflow: hidden;
+		min-height: 63px;
+		padding: 0 0 0 23px;
+	}
+		#main-header{
+		min-height:60px;
+	}
+	#logo{
+	    max-height: 61%;
+		}
+	.et_header_style_left #logo, .et_header_style_split #logo {
+		max-width: 80% !important;
+	}
+	.et_header_style_left .logo_container {
+		margin:8px 0 0 13px !important;
+	}
+	.space-top {
+		padding-top: 120px !important;
+	}
+	.et_pb_section {
+		padding: 132px 0 0 !important;
+	}
+	.ptop{
+		padding-top:0 !important;
+	}
+	.pt-50{
+		padding-top:50px !important;
+	}
+	.pt-b-47{
+		padding-bottom:47px !important;
+	}
+	.pt-0{
+		padding-top:0;
+	}
+	.et-l--footer .et_pb_section {
+		padding-top: 0 !important;
+	}
+	.f-subtitle {
+		font-size: 28px !important;
+		line-height: 28px;
+	}
+	.f-s-30{
+		font-size:30px !important;
+	}
+	.fancybox-wrap{
+		width: 90% !important;
+		left: 15px !important;
+	}
+	.fancybox-skin, .fancybox-inner{
+		width: 100% !important;
+	}
+	
+}
+@media only screen and (min-width:320px) and (max-width:1200px){
+	.et_header_style_left .logo_container{
+		min-height:60px;
+	}
+	#top-menu-nav{
+		display:none;
+	}
+	#sidebarCollapse{
+		display:block;
+	}
+	.b1{
+		display:none;
+	}
+	.b2{
+		display:block;
+	}
+
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1024.98px){
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200.98px){
+}
+
+@media only screen and (min-width:1201px) and (max-width:1365.98px){
+}
+
+@media only screen and (min-width:1366px) and (max-width:1599.98px){
+
+}
+
+@media only screen and (min-width:1600px) and (max-width:1920px){
+
+}
+ 

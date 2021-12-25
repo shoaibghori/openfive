@@ -1,0 +1,446 @@
+@font-face{
+    font-family: 'NotoSans-Regular';
+    src:url('../fonts/NotoSans-Regular.ttf');
+  }
+  @font-face{
+    font-family: 'NotoSans-Bold';
+    src:url('../fonts/NotoSans-Bold.ttf');
+  }
+  @font-face{
+    font-family: 'NotoSans-Medium';
+    src:url('../fonts/NotoSans-Medium.ttf');
+  }
+
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src:url('../fonts/Montserrat-Regular.otf');
+  }
+@font-face{
+    font-family: 'Montserrat-Bold';
+    src:url('../fonts/Montserrat-Bold.otf');
+  }
+  @font-face{
+    font-family: 'Montserrat-Light';
+    src:url('../fonts/Montserrat-Light.otf');
+  }
+  @font-face{
+    font-family: 'Montserrat-Medium';
+    src:url('../fonts/Montserrat-Medium.otf');
+  }
+body {
+		/*font-family: 'roboto-regular', Arial, sans-serif*/
+		font-family: sans-serif !important;
+		color: #666;
+		scroll-behavior: smooth;
+	}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #343434 !important;
+}
+.sticky .logo_container{
+	-webkit-transition: all .4s ease-in-out !important;
+    transition: all .4s ease-in-out !important;
+}
+.sticky .logo_container img{
+ width:185px;
+}
+.sticky #et-top-navigation{
+	padding-top:26px !important;
+}
+.sticky  #et-top-navigation nav > ul > li > a{
+    padding-bottom: 26px !important;
+}
+/*.sticky  #main-header .nav li ul {
+    background-color: #343434 !important
+  }*/
+
+.et-fixed-header#main-header,
+    .et-fixed-header#main-header .nav li ul,
+    .et-fixed-header .et-search-form {
+        background-color: #343434 !important;
+    }
+
+.space-top{
+	padding-top: 180px !important;
+}
+.space-top-die{
+  padding-top: 120px !important;
+}
+.space-top-all{
+	 padding-top: 134px !important;
+}
+.pt-83{
+  padding-top: 83px !important;
+}
+/*.pt-banner{
+	padding-top: 29px !important;	
+}*/
+.et_animated {
+    opacity: 1;
+    animation-duration: 5s;
+animation-delay: 1s;
+/*opacity: 0;*/
+animation-timing-function: ease-in-out;
+left: 0px;
+/*transform: translate3d(0px, -4%, 0px);
+*/
+
+
+   /* -webkit-animation-duration: 1s !important;
+    animation-duration: 1s !important;
+    -webkit-animation-fill-mode: both !important;
+    animation-fill-mode: both !important;*/
+}
+.et-waypoint:not(.et_pb_counters) {
+    opacity: 1;
+}
+
+ .counter-number {
+ 	font-size: 72px;
+    line-height: 72px;
+    font-weight: 500;
+  	color: #aacf4e;
+  	font-family: 'NotoSans-Bold';
+}
+ .counter-title {
+  	color: #424242;
+	font-family: 'NotoSans-Regular';
+    font-size: 18px;
+}
+
+.form-holder label{
+  color: #33475b; 
+  font-family: arial, helvetica, sans-serif;
+}
+.form-holder input[type="text"],
+.form-holder input[type="email"],
+.form-holder input[type="number"],
+.form-holder textarea,
+.form-holder select{
+  background: #f5f8fa !important;
+  border:1px solid #ccd6e2;
+      height: 40px;
+      color: #33475b;
+          padding: 0 15px;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.form-holder textarea{
+  min-height: 80px
+}
+.form-holder input[type="text"]:focus{
+  border:1px solid #79baed;
+  box-shadow: none;
+}
+/*{
+  font-family: arial, helvetica, sans-serif;
+    color: #33475b;
+    font-size: 14px;
+}*/
+
+.hs-button{
+    background: #a8cf45;
+    border-color: #a8cf45;
+    color: #343434;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 12px 24px;
+}
+  .text-content{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    /*color: #343434!important;*/
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .txt-title{
+  padding: 2.855% 0;
+}
+.et_pb_text_0 h1 {
+    font-family: 'NotoSans-Bold',Helvetica,Arial,Lucida !important;
+    font-size: 60px !important;
+    line-height: 60px !important;
+}
+.et_pb_text_6 h1{
+   font-family: 'NotoSans-Bold',Helvetica,Arial,Lucida !important;
+}
+.et_pb_text_4.et_pb_text {
+    color: #343434 !important;
+}
+.et_pb_text_11.et_pb_text {
+    color: #343434 !important;
+}
+.et_pb_text_10.et_pb_text {
+    color: #343434 !important;
+}
+.et_pb_text_8.et_pb_text {
+    color: #343434 !important;
+}
+.et_pb_text_17.et_pb_text {
+    color: #343434 !important;
+}
+.et_pb_text_7.et_pb_text {
+    color: #343434 !important;
+}
+.et_pb_text_6.et_pb_text {
+    color: #343434 !important;
+}
+.et_pb_text_5.et_pb_text {
+    color: #343434 !important;
+}
+.et_pb_text_4 {
+    font-family:  'NotoSans-Bold',Helvetica,Arial,Lucida !important;
+    font-weight: 700;
+    font-size: 35px !important;
+}
+.et_pb_text_16 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_blurb_2.et_pb_blurb {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_blurb_3.et_pb_blurb {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_text_14 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_text_11 h1 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_text_7 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+.et_pb_text_7 .et_pb_text_inner ul li {
+    font-family: "Montserrat-light",Helvetica,Arial,Lucida;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #343434!important;
+}
+.et_pb_text_6 h1 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_text_9 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_text_10 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_text_8 h1 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_text_5 {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+.et_pb_image_2 {
+    text-align: left;
+    margin-left: 0;
+}
+.et_pb_image_1 {
+    text-align: left;
+    margin-left: 0;
+}
+.et_pb_text_6 {
+    font-family: 'NotoSans-Bold',Helvetica,Arial,Lucida !important;
+    font-weight: 700;
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+}
+.et_pb_text_6 .et_pb_text_inner, .et_pb_text_8 .et_pb_text_inner{
+  font-size: 18px !important;
+}
+.et_pb_text_11 {
+    font-family: 'NotoSans-Bold',Helvetica,Arial,Lucida !important;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px !important;
+}
+.et_pb_text_8 {
+    font-family: 'NotoSans-Bold',Helvetica,Arial,Lucida !important;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px !important;
+}
+   .et_pb_text_7 h2,
+   .et_pb_text_11 h2,
+   .et_pb_text_18 h2,
+   .et_pb_text_19 h2
+ {
+  font-size: 18px !important;
+  font-family: 'NotoSans-Bold',Helvetica,Arial,Lucida !important;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+}
+.et_pb_text_11 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #7272ff !important;
+    line-height: 1.3em;
+}
+.et_pb_text_6 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #7272ff !important;
+    line-height: 1.3em;
+}
+.et_pb_text_8 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #7272ff !important;
+    line-height: 1.3em;
+}
+.et_pb_text_9.et_pb_text {
+    color: #343434 !important;
+    transition: color 300ms ease 0ms;
+}
+.txt-banner{
+   font-size: 18px;
+   line-height: 23px;
+}
+.modal-title-txt{
+    font-size: 35px !important;
+     font-family: 'NotoSans-Regular',Helvetica,Arial,Lucida !important;
+    line-height: 1em;
+}
+.btn-modal{
+    background: #A8CF45;
+    border-color: #A8CF45;
+    color: #343434;
+    font-size: 21px;
+    font-family: Lato;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 12px 24px;
+}
+.modal-inter input[type="text"], .modal-inter input[type="email"]{
+    display: inline-block;
+    height: 40px;   
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    border: 1px solid #cbd6e2;
+    border-radius: 3px;
+    padding: 0 15px;
+}
+.fld-all input[type="text"], .fld-all input[type="email"]{
+    background: #f5f8fa !important;
+    border: 1px solid #ccd6e2;
+    height: 40px;
+    color: #33475b;
+    padding: 0 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.modal-inter input[type="text"]:focus, .modal-inter input[type="email"]:focus{
+  border: 1px solid #97c9f0;  
+}
+.modal-inter label{
+    color: #343434;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 20px;
+
+}
+.die-banner-txt{
+    font-size: 18px;
+    font-family: "Montserrat-medium",Helvetica,Arial,Lucida;
+    line-height: 23px;
+}
+.text-all{
+    font-size: 15px !important;
+    line-height: 23px !important;
+    font-weight: 400 !important;
+    color:#787878 !important;
+    font-family: "Montserrat-light",Helvetica,Arial,Lucida !important;
+}
+.f-14{
+   font-size: 14px !important;
+}
+.f-30{
+   font-size: 30px !important;
+}
+.sub-heading{
+    font-size: 18px !important;
+    font-family: 'NotoSans-Bold',Helvetica,Arial,Lucida !important;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+}
+#topcontrol{
+  z-index: 1;
+      width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 6px 0 0px 6px;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    box-sizing: border-box;
+}
+.fancybox-overlay{
+  z-index: 99999;
+}
+.clickable{
+  cursor: pointer;
+}
+.f-subtitle{
+  font-size: 35px !important;
+  line-height: 35px;
+     font-family: 'NotoSans-Bold',Helvetica, Arial, Lucida !important;
+    font-weight: 500 !important;
+    margin-bottom: 20px !important;
+}
+.title-banner{
+	 font-family: 'Montserrat-Regular';
+}
+
+#sidebarCollapse{
+	display:none;
+}
+.t-green{
+	color: #A8CF45;
+}
+.b2{
+	display:none;
+}
+.f-light{
+	 font-family: "NotoSans-Regular", Helvetica, Arial, Lucida !important;
+}
+.f-bold{
+	 font-family: 'NotoSans-Bold',Helvetica, Arial, Lucida !important;
+}
+.desc-form {
+    color: #666;
+    font-size: 20px !important;
+    line-height: 22px;
+    font-family: "Montserrat-regular",Helvetica,Arial,Lucida !important;
+    text-align: left;
+}
+.et_pb_text_1 .form-event{
+    color: #666 !important;
+    font-size: 22px !important;
+    line-height: 24px !important;
+     font-family: 'NotoSans-Bold',Helvetica, Arial, Lucida !important;
+}
